@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Geo Safaris Tanzania | Luxury African Safaris & Tailored Expeditions</title>
+    
+    <meta name="description" content="Experience premium, bespoke luxury safaris in Tanzania. Explore the Serengeti, Ngorongoro Crater, Mount Kilimanjaro, and Zanzibar with Geo Safaris Tanzania.">
+    <meta name="keywords" content="Tanzania safari, luxury safari, Serengeti luxury tour, Ngorongoro crater, Kilimanjaro trekking, Zanzibar beach holiday, premium Tanzania travel">
+    <meta name="author" content="Geo Safaris Tanzania">
+    <meta name="robots" content="index, follow">
+    
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://geosafaristanzania.com/">
+    <meta property="og:title" content="Geo Safaris Tanzania | Luxury African Safaris">
+    <meta property="og:description" content="Embark on an extraordinary journey into the wild. Premium, tailormade wilderness expeditions across Tanzania's iconic landscapes.">
+    <meta property="og:image" content="https://images.unsplash.com/photo-1516426122078-c23e76319801?auto=format&fit=crop&w=1200&q=80">
+
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://geosafaristanzania.com/">
+    <meta property="twitter:title" content="Geo Safaris Tanzania | Luxury African Safaris">
+    <meta property="twitter:description" content="Embark on an extraordinary journey into the wild. Premium, tailormade wilderness expeditions across Tanzania's iconic landscapes.">
+    <meta property="twitter:image" content="https://images.unsplash.com/photo-1516426122078-c23e76319801?auto=format&fit=crop&w=1200&q=80">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="site-header" id="header">
+        <div class="header-container">
+            <a href="#" class="logo" aria-label="Geo Safaris Tanzania Home">
+                <span class="logo-main">GEO SAFARIS</span>
+                <span class="logo-sub">TANZANIA</span>
+            </a>
+            
+            <nav class="nav-menu" id="navMenu" aria-label="Main Navigation">
+                <ul class="nav-list">
+                    <li><a href="#hero" class="nav-link active">Home</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#packages" class="nav-link">Packages</a></li>
+                    <li><a href="#destinations" class="nav-link">Destinations</a></li>
+                    <li><a href="#why-us" class="nav-link">Why Us</a></li>
+                    <li><a href="#gallery" class="nav-link">Gallery</a></li>
+                    <li><a href="#booking" class="nav-btn">Book Now</a></li>
+                </ul>
+            </nav>
+            
+            <button class="hamburger" id="hamburgerBtn" aria-expanded="false" aria-controls="navMenu" aria-label="Toggle navigation menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+        </div>
+    </header>
+
+    <section class="hero" id="hero">
+        <div class="video-container">
+            <video autoplay loop muted playsinline poster="https://images.unsplash.com/photo-1547471080-7cc2caa01a7e?auto=format&fit=crop&w=1920&q=80" id="heroVideo">
+                <source src="https://assets.mixkit.co/videos/preview/mixkit-elephants-walking-in-the-savanna-43102-large.mp4" type="video/mp4">
+            </video>
+            <div class="hero-overlay"></div>
+        </div>
+        
+        <div class="hero-content">
+            <h1 class="hero-title reveal-fade">The Pinnacle of <br><span class="text-gold">Luxury Wild Expeditions</span></h1>
+            <p class="hero-subtitle reveal-fade">Discover Tanzania's untamed landscapes through tailored, immersive, high-end journeys designed exclusively for you.</p>
+            <div class="hero-ctas reveal-fade">
+                <a href="#packages" class="btn btn-primary">Explore Packages</a>
+                <a href="#booking" class="btn btn-secondary">Tailor Your Trip</a>
+            </div>
+        </div>
+
+        <div class="hero-stats-container container">
+            <div class="stat-card">
+                <span class="stat-number" data-target="15">0</span><span class="stat-plus">+</span>
+                <p class="stat-label">Years Experience</p>
+            </div>
+            <div class="stat-card">
+                <span class="stat-number" data-target="1200">0</span><span class="stat-plus">+</span>
+                <p class="stat-label">Luxury Safaris Completed</p>
+            </div>
+            <div class="stat-card">
+                <span class="stat-number" data-target="99">0</span><span class="stat-plus">%</span>
+                <p class="stat-label">Guest Satisfaction</p>
+            </div>
+            <div class="stat-card">
+                <span class="stat-number" data-target="45">0</span><span class="stat-plus">+</span>
+                <p class="stat-label">Bespoke Remote Camps</p>
+            </div>
+        </div>
+
+        <div class="scroll-indicator" aria-hidden="true">
+            <a href="#about" aria-label="Scroll down to About section">
+                <span class="mouse">
+                    <span class="wheel"></span>
+                </span>
+                <span class="arrow"></span>
+            </a>
+        </div>
+    </section>
+
+    <section class="about section-padding" id="about">
+        <div class="container grid-2">
+            <div class="about-text-column reveal-left">
+                <span class="section-tag">Uncompromising Luxury</span>
+                <h2 class="section-title">Redefining The Modern Safari Narrative</h2>
+                <p class="about-lead">Geo Safaris Tanzania designs unmatched private escapes across the most biologically rich ecosystems in East Africa. Our standard combines deep architectural bush authenticity with contemporary ultra-luxury.</p>
+                <p class="about-body">We bypass regular commercial tracks, flying you via exclusive private charters directly to pristine conservancies. Here, expert indigenous field guides unveil raw apex predatory interactions and elite seasonal migration crossings, completely insulated from mass tourist congestion.</p>
+                
+                <div class="about-features">
+                    <div class="feature-item">
+                        <div class="feature-icon-wrapper"><i class="fa-solid fa-plane-departure"></i></div>
+                        <div>
+                            <h3>Private Charter Fly-ins</h3>
+                            <p>Direct entry airstrip transfers avoiding long unpaved transits.</p>
+                        </div>
+                    </div>
+                    <div class="feature-item">
+                        <div class="feature-icon-wrapper"><i class="fa-solid fa-champagne-glasses"></i></div>
+                        <div>
+                            <h3>Elite Bush Hospitality</h3>
+                            <p>Ultra-premium properties, private chefs, and personalized butler services.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="about-image-column reveal-right">
+                <div class="image-stack">
+                    <img data-src="https://images.unsplash.com/photo-1516426122078-c23e76319801?auto=format&fit=crop&w=800&q=80" alt="Luxury Safari Vehicle Game Drive" class="lazy-img img-main">
+                    <img data-src="https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?auto=format&fit=crop&w=600&q=80" alt="Premium Bush Tented Camp Lounge" class="lazy-img img-sub">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="packages section-padding" id="packages">
+        <div class="container text-center">
+            <span class="section-tag">Curated Collections</span>
+            <h2 class="section-title text-white">Signature Wilderness Experiences</h2>
+            <p class="section-subtitle">Impeccably tailored routes leveraging optimum wildlife congestion windows and premier luxury lodging.</p>
+        </div>
+
+        <div class="container grid-3 margin-top-lg">
+            <div class="package-card reveal-up">
+                <div class="package-img-wrapper">
+                    <span class="package-badge">Most Popular</span>
+                    <img data-src="https://images.unsplash.com/photo-1547471080-7cc2caa01a7e?auto=format&fit=crop&w=800&q=80" alt="Serengeti Big Five Safari Route" class="lazy-img">
+                </div>
+                <div class="package-content">
+                    <span class="package-duration">8 Days / 7 Nights</span>
+                    <h3>The Ultimate Serengeti Migration Elite</h3>
+                    <p>Track the ancient wildebeest direct movement loops via luxury mobile under-canvas setups and private ranger escorts.</p>
+                    <div class="package-meta">
+                        <span class="meta-item"><i class="fa-solid fa-hotel"></i> 5★ Ultra Lodges</span>
+                        <span class="meta-item"><i class="fa-solid fa-camera"></i> Private Vehicle</span>
+                    </div>
+                    <div class="package-footer">
+                        <div class="package-price">
+                            <span class="price-from">From</span>
+                            <span class="price-value">$6,450</span>
+                            <span class="price-unit">/ pp</span>
+                        </div>
+                        <a href="#booking" class="btn btn-primary btn-sm package-book-trigger" data-tour="The Ultimate Serengeti Migration Elite">Enquire Now</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="package-card reveal-up" style="animation-delay: 0.1s;">
+                <div class="package-img-wrapper">
+                    <span class="package-badge">Connoisseur Choice</span>
+                    <img data-src="https://images.unsplash.com/photo-1534113414509-0eec2bfb493f?auto=format&fit=crop&w=800&q=80" alt="Crater Floor Luxury Escapes" class="lazy-img">
+                </div>
+                <div class="package-content">
+                    <span class="package-duration">5 Days / 4 Nights</span>
+                    <h3>Ngorongoro Crater & Tarangire Wilderness</h3>
+                    <p>Descending 600m into an ancient volcanic caldera floor containing over 30,000 resident large mammal populations.</p>
+                    <div class="package-meta">
+                        <span class="meta-item"><i class="fa-solid fa-hotel"></i> Signature Villas</span>
+                        <span class="meta-item"><i class="fa-solid fa-wine-glass"></i> All Inclusive</span>
+                    </div>
+                    <div class="package-footer">
+                        <div class="package-price">
+                            <span class="price-from">From</span>
+                            <span class="price-value">$4,200</span>
+                            <span class="price-unit">/ pp</span>
+                        </div>
+                        <a href="#booking" class="btn btn-primary btn-sm package-book-trigger" data-tour="Ngorongoro Crater & Tarangire Wilderness">Enquire Now</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="package-card reveal-up" style="animation-delay: 0.2s;">
+                <div class="package-img-wrapper">
+                    <span class="package-badge">Exclusive Honeymoon</span>
+                    <img data-src="https://images.unsplash.com/photo-1535262412227-85541e910204?auto=format&fit=crop&w=800&q=80" alt="Bush and Beach Zanzibar Safari" class="lazy-img">
+                </div>
+                <div class="package-content">
+                    <span class="package-duration">12 Days / 11 Nights</span>
+                    <h3>Sky & Sea Luxury: Bush to Zanzibar Paradise</h3>
+                    <p>The total juxtaposition of deep dust-born savanna tracking paired with overwater private resort villas on Zanzibar Island.</p>
+                    <div class="package-meta">
+                        <span class="meta-item"><i class="fa-solid fa-ship"></i> Private Yacht Tour</span>
+                        <span class="meta-item"><i class="fa-solid fa-spa"></i> Wellness Retreat</span>
+                    </div>
+                    <div class="package-footer">
+                        <div class="package-price">
+                            <span class="price-from">From</span>
+                            <span class="price-value">$9,800</span>
+                            <span class="price-unit">/ pp</span>
+                        </div>
+                        <a href="#booking" class="btn btn-primary btn-sm package-book-trigger" data-tour="Sky & Sea Luxury: Bush to Zanzibar Paradise">Enquire Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="destinations section-padding" id="destinations">
+        <div class="container text-center">
+            <span class="section-tag">Iconic Landscapes</span>
+            <h2 class="section-title">The Wonders of Tanzania</h2>
+            <p class="section-subtitle">Unrivaled access into the absolute standard-bearing conservation domains across the planet.</p>
+        </div>
+
+        <div class="container grid-3 margin-top-lg">
+            <div class="destination-card reveal-fade">
+                <img data-src="https://images.unsplash.com/photo-1504618223053-559bdef9dd5a?auto=format&fit=crop&w=600&q=80" alt="Serengeti National Park Plains" class="lazy-img">
+                <div class="destination-overlay">
+                    <div class="destination-info">
+                        <h3>Serengeti National Park</h3>
+                        <p>The theatre of the Endless Plains holding the largest biomass migration sequence across the world.</p>
+                        <button class="btn-readmore" data-target="modal-serengeti">Read More <i class="fa-solid fa-arrow-right"></i></button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="destination-card reveal-fade">
+                <img data-src="https://images.unsplash.com/photo-1516426122078-c23e76319801?auto=format&fit=crop&w=600&q=80" alt="Ngorongoro Crater Floor View" class="lazy-img">
+                <div class="destination-overlay">
+                    <div class="destination-info">
+                        <h3>Ngorongoro Crater</h3>
+                        <p>An intact collapsed ancient volcanic caldera ecosystem providing supreme protection for the Black Rhino.</p>
+                        <button class="btn-readmore" data-target="modal-ngorongoro">Read More <i class="fa-solid fa-arrow-right"></i></button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="destination-card reveal-fade">
+                <img data-src="https://images.unsplash.com/photo-1534113414509-0eec2bfb493f?auto=format&fit=crop&w=600&q=80" alt="Tarangire Elephants and Baobabs" class="lazy-img">
+                <div class="destination-overlay">
+                    <div class="destination-info">
+                        <h3>Tarangire National Park</h3>
+                        <p>Famed for iconic prehistoric Baobab tree silhouettes and colossal multi-generational elephant herds.</p>
+                        <button class="btn-readmore" data-target="modal-tarangire">Read More <i class="fa-solid fa-arrow-right"></i></button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="destination-card reveal-fade">
+                <img data-src="https://images.unsplash.com/photo-1523805009345-7448845a9e53?auto=format&fit=crop&w=600&q=80" alt="Lake Manyara Flamingos" class="lazy-img">
+                <div class="destination-overlay">
+                    <div class="destination-info">
+                        <h3>Lake Manyara</h3>
+                        <p>A pristine soda lake containing vibrant pink flamingo colonies and rare tree-climbing lions.</p>
+                        <button class="btn-readmore" data-target="modal-manyara">Read More <i class="fa-solid fa-arrow-right"></i></button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="destination-card reveal-fade">
+                <img data-src="https://images.unsplash.com/photo-1589553460732-5965c0e17440?auto=format&fit=crop&w=600&q=80" alt="Mount Kilimanjaro Summit Base" class="lazy-img">
+                <div class="destination-overlay">
+                    <div class="destination-info">
+                        <h3>Mount Kilimanjaro</h3>
+                        <p>The majestic rooftop of Africa. A snowcapped volcanic peak challenging structural endurance.</p>
+                        <button class="btn-readmore" data-target="modal-kilimanjaro">Read More <i class="fa-solid fa-arrow-right"></i></button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="destination-card reveal-fade">
+                <img data-src="https://images.unsplash.com/photo-1540206351-d6465b3ac5c1?auto=format&fit=crop&w=600&q=80" alt="Zanzibar Beach Resort Luxury" class="lazy-img">
+                <div class="destination-overlay">
+                    <div class="destination-info">
+                        <h3>Zanzibar Archipelago</h3>
+                        <p>A post-safari oceanic sanctuary rich with historic spice trails and clear, turquoise-wrapped reef sands.</p>
+                        <button class="btn-readmore" data-target="modal-zanzibar">Read More <i class="fa-solid fa-arrow-right"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="why-us section-padding" id="why-us">
+        <div class="container text-center">
+            <span class="section-tag">The Geo Safaris Distinction</span>
+            <h2 class="section-title text-white">Why Discriminating Travelers Select Us</h2>
+            <p class="section-subtitle">Engineering ultra-luxury operations requires technical precision and deep field alignment.</p>
+        </div>
+
+        <div class="container grid-3 margin-top-lg">
+            <div class="glass-card reveal-up">
+                <div class="glass-card-icon"><i class="fa-solid fa-shield-halved"></i></div>
+                <h3>Impeccable Field Safety</h3>
+                <p>Equipped with elite satellite backup infrastructure and AMREF Flying Doctors direct medical extraction protocols across all tracks.</p>
+            </div>
+            
+            <div class="glass-card reveal-up" style="animation-delay: 0.1s;">
+                <div class="glass-card-icon"><i class="fa-solid fa-truck-monster"></i></div>
+                <h3>Custom Class-A Land Cruisers</h3>
+                <p>Modified heavy fleet configurations boasting custom internal suspension, on-board refrigeration setups, and high-wattage power grids.</p>
+            </div>
+
+            <div class="glass-card reveal-up" style="animation-delay: 0.2s;">
+                <div class="glass-card-icon"><i class="fa-solid fa-leaf"></i></div>
+                <h3>Conscious Conservation</h3>
+                <p>A portion of operational booking margins directly sustains local community education initiatives and anti-poaching field patrols.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonials section-padding">
+        <div class="container text-center">
+            <span class="section-tag">Guest Discretion Accounts</span>
+            <h2 class="section-title">Endorsements from the Field</h2>
+        </div>
+
+        <div class="container testimonial-slider-wrapper reveal-fade">
+            <div class="testimonial-slider" id="testimonialSlider">
+                <div class="testimonial-slide active">
+                    <div class="rating-stars">
+                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                    </div>
+                    <blockquote class="testimonial-text">
+                        "The absolute gold standard of custom travel. Geo Safaris managed our private family flight tracking effortlessly across the western Serengeti corridor. Every meal prepared by our private camp chef exceeded five-star urban standards."
+                    </blockquote>
+                    <div class="testimonial-author">
+                        <span class="author-name">Lord Alistair Sterling</span>
+                        <span class="author-origin">London, UK</span>
+                    </div>
+                </div>
+
+                <div class="testimonial-slide">
+                    <div class="rating-stars">
+                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                    </div>
+                    <blockquote class="testimonial-text">
+                        "We were completely blown away by our guide's tactical tracking proficiency. We photographed apex leopard interactions completely isolated from any neighboring tourist traffic. Simply magnificent execution."
+                    </blockquote>
+                    <div class="testimonial-author">
+                        <span class="author-name">Dr. Elena Rostova</span>
+                        <span class="author-origin">Zurich, Switzerland</span>
+                    </div>
+                </div>
+
+                <div class="testimonial-slide">
+                    <div class="rating-stars">
+                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                    </div>
+                    <blockquote class="testimonial-text">
+                        "The transition from high dust-born savanna tracking in Ngorongoro into overwater villas in Zanzibar was flawlessly executed via private charter aircraft. Absolute luxury from start to finish."
+                    </blockquote>
+                    <div class="testimonial-author">
+                        <span class="author-name">Marcus & Sarah Vance</span>
+                        <span class="author-origin">New York, USA</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="slider-controls">
+                <button class="slider-btn prev-btn" id="prevSlide" aria-label="Previous Testimonial"><i class="fa-solid fa-chevron-left"></i></button>
+                <div class="slider-dots" id="sliderDots"></div>
+                <button class="slider-btn next-btn" id="nextSlide" aria-label="Next Testimonial"><i class="fa-solid fa-chevron-right"></i></button>
+            </div>
+        </div>
+    </section>
+
+    <section class="gallery section-padding" id="gallery">
+        <div class="container text-center">
+            <span class="section-tag">Visual Archives</span>
+            <h2 class="section-title">Capturing The Wilderness Essence</h2>
+            <p class="section-subtitle">Real imagery documented on location during signature Geo Safaris client operations.</p>
+        </div>
+
+        <div class="container masonry-gallery margin-top-lg">
+            <div class="gallery-item reveal-fade" data-index="0">
+                <img data-src="https://images.unsplash.com/photo-1547471080-7cc2caa01a7e?auto=format&fit=crop&w=600&q=80" alt="Majestic Elephant close up" class="lazy-img">
+                <div class="gallery-hover"><i class="fa-solid fa-expand"></i></div>
+            </div>
+            <div class="gallery-item reveal-fade" data-index="1">
+                <img data-src="https://images.unsplash.com/photo-1516426122078-c23e76319801?auto=format&fit=crop&w=600&q=100" alt="Safari Landcruiser on track" class="lazy-img">
+                <div class="gallery-hover"><i class="fa-solid fa-expand"></i></div>
+            </div>
+            <div class="gallery-item reveal-fade" data-index="2">
+                <img data-src="https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?auto=format&fit=crop&w=600&q=80" alt="Luxury Bush tent configuration" class="lazy-img">
+                <div class="gallery-hover"><i class="fa-solid fa-expand"></i></div>
+            </div>
+            <div class="gallery-item reveal-fade" data-index="3">
+                <img data-src="https://images.unsplash.com/photo-1602491453631-e2a5ad90a131?auto=format&fit=crop&w=600&q=80" alt="Leopard pacing on tree branch" class="lazy-img">
+                <div class="gallery-hover"><i class="fa-solid fa-expand"></i></div>
+            </div>
+            <div class="gallery-item reveal-fade" data-index="4">
+                <img data-src="https://images.unsplash.com/photo-1534113414509-0eec2bfb493f?auto=format&fit=crop&w=600&q=80" alt="Pride of lions sleeping" class="lazy-img">
+                <div class="gallery-hover"><i class="fa-solid fa-expand"></i></div>
+            </div>
+            <div class="gallery-item reveal-fade" data-index="5">
+                <img data-src="https://images.unsplash.com/photo-1540206351-d6465b3ac5c1?auto=format&fit=crop&w=600&q=80" alt="Zanzibar clear turquoise waters" class="lazy-img">
+                <div class="gallery-hover"><i class="fa-solid fa-expand"></i></div>
+            </div>
+        </div>
+    </section>
+
+    <section class="booking section-padding" id="booking">
+        <div class="container grid-2">
+            <div class="booking-text reveal-left">
+                <span class="section-tag">Bespoke Consultations</span>
+                <h2 class="section-title text-white">Begin Engineering Your Custom Journey</h2>
+                <p>Every journey is drawn up dynamically from a blank canvas. Provide your core logistical constraints below, and our luxury trip designers will assemble your initial itinerary option framework within 12 hours.</p>
+                
+                <div class="booking-guarantees">
+                    <div class="guarantee-item">
+                        <i class="fa-solid fa-circle-check"></i>
+                        <span>Zero Obligation Drafting</span>
+                    </div>
+                    <div class="guarantee-item">
+                        <i class="fa-solid fa-circle-check"></i>
+                        <span>100% Tailored Private Operations</span>
+                    </div>
+                </div>
+
+                <div class="whatsapp-direct-box">
+                    <p>Prefer instant coordination? Bypass the layout grid and message our lead operations director directly via encrypted link:</p>
+                    <a href="https://wa.me/255743828620?text=Hello%20Geo%20Safaris%20Tanzania%2C%20I'm%20interested%20in%20planning%20a%20luxury%20safari." target="_blank" class="whatsapp-direct-btn" rel="noopener">
+                        <i class="fa-brands fa-whatsapp"></i> Chat Live: Operations Desk
+                    </a>
+                </div>
+            </div>
+
+            <div class="booking-form-wrapper reveal-right">
+                <form id="safariBookingForm" class="booking-form" novalidate>
+                    <div class="form-group">
+                        <label for="fullName">Full Name *</label>
+                        <input type="text" id="fullName" name="fullName" required placeholder="e.g., Jonathan Vance" aria-required="true">
+                        <span class="error-msg" id="nameError">Name entry required</span>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="country">Country of Residence *</label>
+                        <input type="text" id="country" name="country" required placeholder="e.g., United States" aria-required="true">
+                        <span class="error-msg" id="countryError">Country entry required</span>
+                    </div>
+
+                    <div class="form-row grid-2">
+                        <div class="form-group">
+                            <label for="travelDate">Target Travel Date *</label>
+                            <input type="date" id="travelDate" name="travelDate" required aria-required="true">
+                            <span class="error-msg" id="dateError">Select valid future date</span>
+                        </div>
+                        <div class="form-group">
+                            <label for="travelers">Total Travelers *</label>
+                            <input type="number" id="travelers" name="travelers" min="1" max="30" required value="2" aria-required="true">
+                            <span class="error-msg" id="travelersError">Minimum 1 traveler required</span>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="tourType">Preferred Custom Tour Structure *</label>
+                        <select id="tourType" name="tourType" required aria-required="true">
+                            <option value="">-- Choose Signature Sequence --</option>
+                            <option value="The Ultimate Serengeti Migration Elite">The Ultimate Serengeti Migration Elite</option>
+                            <option value="Ngorongoro Crater & Tarangire Wilderness">Ngorongoro Crater & Tarangire Wilderness</option>
+                            <option value="Sky & Sea Luxury: Bush to Zanzibar Paradise">Sky & Sea Luxury: Bush to Zanzibar Paradise</option>
+                            <option value="Fully Bespoke Luxury Tailored Expedition">Fully Bespoke Luxury Tailored Expedition</option>
+                        </select>
+                        <span class="error-msg" id="tourError">Please select an itinerary layout</span>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="userMessage">Special Customization Requirements</label>
+                        <textarea id="userMessage" name="userMessage" rows="4" placeholder="Mention any specific pacing demands, accessibility conditions, or luxury property preferences..."></textarea>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary btn-block">
+                        <i class="fa-brands fa-whatsapp"></i> Dispatch Request via WhatsApp
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <div class="modal" id="destinationModal" role="dialog" aria-modal="true" aria-hidden="true">
+        <div class="modal-overlay"></div>
+        <div class="modal-wrapper">
+            <button class="modal-close-btn" aria-label="Close modal">&times;</button>
+            <div class="modal-body-content">
+                </div>
+        </div>
+    </div>
+
+    <div class="lightbox" id="lightboxModal" role="dialog" aria-modal="true" aria-hidden="true">
+        <button class="lightbox-close" aria-label="Close image viewer">&times;</button>
+        <button class="lightbox-nav lightbox-prev" aria-label="Previous image"><i class="fa-solid fa-chevron-left"></i></button>
+        <div class="lightbox-content">
+            <img src="" alt="Enlarged Luxury View" id="lightboxImg">
+        </div>
+        <button class="lightbox-nav lightbox-next" aria-label="Next image"><i class="fa-solid fa-chevron-right"></i></button>
+    </div>
+
+    <footer class="site-footer">
+        <div class="container grid-4">
+            <div class="footer-brand">
+                <a href="#" class="logo">
+                    <span class="logo-main">GEO SAFARIS</span>
+                    <span class="logo-sub">TANZANIA</span>
+                </a>
+                <p class="footer-desc">Premium customized tracking safaris and luxury lodge routing across East Africa's premier wilderness domains.</p>
+                <div class="footer-socials">
+                    <a href="#" aria-label="Instagram Page"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#" aria-label="Facebook Page"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#" aria-label="TripAdvisor Profile"><i class="fa-brands fa-tripadvisor"></i></a>
+                    <a href="#" aria-label="YouTube Channel"><i class="fa-brands fa-youtube"></i></a>
+                </div>
+            </div>
+
+            <div class="footer-links">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#hero">Home Base</a></li>
+                    <li><a href="#about">Our Credentials</a></li>
+                    <li><a href="#packages">Signature Routes</a></li>
+                    <li><a href="#destinations">Conservation Areas</a></li>
+                    <li><a href="#gallery">Visual Archives</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-links">
+                <h3>Our Destination Targets</h3>
+                <ul>
+                    <li><a href="#destinations">Serengeti Plains</a></li>
+                    <li><a href="#destinations">Ngorongoro Caldera</a></li>
+                    <li><a href="#destinations">Tarangire Ecosystem</a></li>
+                    <li><a href="#destinations">Kilimanjaro Ascent</a></li>
+                    <li><a href="#destinations">Zanzibar Private Villas</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-contact">
+                <h3>Operations Base</h3>
+                <p><i class="fa-solid fa-location-dot"></i> Arusha, Tanzania</p>
+                <p><i class="fa-solid fa-phone"></i> +255 743 828 620</p>
+                <p><i class="fa-solid fa-envelope"></i> concierge@geosafaristanzania.com</p>
+                <p class="footer-hours"><i class="fa-solid fa-clock"></i> Concierge Line: 24/7 Monitoring</p>
+            </div>
+        </div>
+
+        <div class="footer-bottom text-center">
+            <div class="container">
+                <p>&copy; 2026 Geo Safaris Tanzania. All Rights Reserved. Engineered for Ultra-Luxury Safaris.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
